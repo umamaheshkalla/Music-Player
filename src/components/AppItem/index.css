@@ -1,0 +1,36 @@
+.app-card {
+  background-color: #ffffff;
+  height: 20vh;
+  width: 20vw;
+  margin: 18px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 14px;
+  border: 1px solid white;
+  box-shadow: 5px 10px 20px #888888;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .app-card {
+    width: 40vw;
+  }
+}
+
+.navigate-link {
+  text-decoration: none;
+  color: black;
+}
+.app-images {
+  height: 80px;
+  width: 90px;
+}
+.app-name {
+  font-family: 'Segoe UI';
+  font-weight: bold;
+  font-size: 15px;
+  margin: 10px;
+}

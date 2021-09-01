@@ -1,0 +1,42 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.heading {
+  font-family: 'Segoe UI';
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 25px;
+}
+.input {
+  border: 1px;
+  border-radius: 3px;
+  font-family: 'roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 20vw;
+  text-align: center;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.tab-items {
+  display: flex;
+  margin-bottom: 20px;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

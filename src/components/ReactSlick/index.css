@@ -1,0 +1,19 @@
+.container {
+  padding: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+.carousel-images {
+  height: 40vh;
+  width: 80vw;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 30px;
+  }
+  .carousel-images {
+    width: 80vw;
+    height: 25vh;
+  }
+}
